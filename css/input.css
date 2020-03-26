@@ -1,0 +1,67 @@
+input {
+  display: block;
+  padding: 8px 5px;
+  background: none;
+  border: solid #fa982f 2px;
+  text-align: center;
+  width: auto;
+  color: #fa982f;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+input::placeholder {
+  color: white;
+  font-size: 18px;
+  width: 100px;
+
+}
+
+input:focus {
+  background: #fa982f;
+  color: #121212;
+  transition: 0.5s;
+}
+
+input:hover {
+  background: #fa982f;
+  color: #de7109;
+  transition: 0.5s;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+}
+
+.inputt {
+  width: 300px;
+}
+textarea {
+  display: block;
+  padding: 8px 5px;
+  background: none;
+  border: solid #fa982f 2px;
+  width: auto;
+  color: #fa982f;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+textarea::placeholder {
+  color: white;
+  font-size: 18px;
+  width: 100px;
+
+}
+
+textarea:focus {
+  background: #fa982f;
+  color: #121212;
+  transition: 0.5s;
+}
+
+textarea:hover {
+  background: #fa982f;
+  color: #de7109;
+  transition: 0.5s;
+}
