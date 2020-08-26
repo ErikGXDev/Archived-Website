@@ -1,0 +1,28 @@
+body {
+  background-color: #121212;
+}
+
+* {
+  color: #4dff4d;
+  font-family: 'Russo One', sans-serif;
+}
+
+button {
+  transition: 1s;
+  padding: 25px;
+  padding-left: 45px;
+  padding-right: 45px;
+  background: none;
+  border: solid #4dff4d;
+  cursor: pointer;
+}
+
+button:hover {
+  transition: 1s;
+  color: #121212;
+  padding: 25px;
+  padding-left: 45px;
+  padding-right: 45px;
+  background: #4dff4d;
+  border: solid #4dff4d;
+}
